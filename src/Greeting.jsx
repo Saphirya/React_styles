@@ -1,5 +1,9 @@
-import styles from "./Greeting.module.css";
+import styles from "./Greeting.module.scss";
 
 export default function Greeting() {
-  return <h1 className={styles.title}>Greeting</h1>;
+  return (
+    <h1 className={styles.title}>
+      Greeting <span>!!!</span>
+    </h1>
+  );
 }
