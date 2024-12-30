@@ -1,14 +1,10 @@
+import Greeting from "./Greeting";
+
 export default function App() {
-  const color = "red";
   return (
-    <h1
-      style={{
-        color: color,
-        backgroundColor: "black",
-        border: "1px solid green",
-      }}
-    >
-      Hello World
-    </h1>
+    <>
+      <h1 className="title">Hello World</h1>
+      <Greeting />
+    </>
   );
 }
